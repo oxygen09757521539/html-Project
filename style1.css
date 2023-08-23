@@ -81,18 +81,21 @@ button:hover{
 	
 
 }
+
 .Image-box .img{
 	
 	height: 33rem;
 	width: 10rem;
-
-	
 	
 } 
+.ultra img{
+	width: 100%;
+}
 .content h1{
 	color: white;
 	font-size: 3.5rem;
 	letter-spacing: 0.3rem;
+	
 }
 .content p{
 	color: white;
@@ -120,3 +123,27 @@ button:hover{
 	color: white;
 	letter-spacing: 0.04rem;
 }
+
+.navlist li a:hover{
+	background: #03e9f4;
+	color: #050801;
+	box-shadow: 0 0 5px #03e9f4,
+				0 0 25px #05952c,
+				0 0 50px #a8cc59,
+				0 0 200px #a72c6e;
+	-webkit-box-flex: below 1px
+	linear-gradient(transparent, #0005);
+	
+
+}
+a:nth :nth-child(1){
+	filter: hue-rotate(1800deg);
+}
+a:nth-child(2){
+	filter: hue-rotate(100deg);
+}
+a{
+	position: relative;
+	display: flex;
+}
+
