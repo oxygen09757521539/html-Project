@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(image2/login.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.login{
+    width: 600px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.sign-up h2{
+    text-align: center;
+    font-size: 3em;
+    color:white;
+    margin-bottom: 50px;
+}
+.login .input{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+
+}
+.input-mail{
+    font-size: 20px;
+    width: 70%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid #fff;
+    transition: .3s;
+    color: #fff;
+}
+.input-mail:focus ~ label,
+.input-mail:valid ~ label{
+    top: -20px;
+    font-size: 15px;
+    color: #f8ece2;
+    border: none;
+}
+.input label{
+    position: relative;
+    left: -375px;
+    color: #fff;
+}
+.input i{
+    position: absolute;
+    right: 510px;
+    color: #fff;
+}
+.login .checkbox{
+    padding-left: 60px;
+    margin-bottom: 3opx;
+    color: #fff;
+}
+button{
+    font-size: 25px;
+    width: 70%;
+    margin-left: 60px;
+    font-weight: 500;
+    background-color: #fff;
+    color: black;
+    border: none;
+    outline: none;
+}
+button:active{
+    font-size: 27px;
+}
+.box p{
+    text-align: center;
+    margin: 40px 60px 0 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.login .icon{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding-right: 40px;
+}
+.login .icon i{
+    margin-left: 27px;
+    color: #fff;
+
+}
+p{
+    color: #fff;
+}
