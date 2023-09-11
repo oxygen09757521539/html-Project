@@ -1,16 +1,23 @@
 
-.body{
+ /* .body{
 	margin:0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+	width: 100%;
 	
 }
 .body{
 	font-size: 10px;
-	background: linear-gradient( blue,turquoise,gold);
-	width: 100%;
-	height: 90vh;
+	background: linear-gradient( black,turquoise,gold); 
+		
+} */
+
+.container{
+	background-image: url('image2/bg2.jpg');
+	background-position: center;
+	background-size:90%;
+	width: 100%;	
 }
 .navbar{
 	
@@ -22,7 +29,7 @@
 	margin: auto;
 	
 }
-input{
+/* input{
 	position: absolute;
 	transform: translate(-50%,-50%);
 	color: white;
@@ -54,7 +61,46 @@ input:not(:placeholder-shown){
 	width: 200px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 #FFBB70;
 
-}
+} */
+
+
+
+.search {
+	display: inline-block;
+	position: relative;
+  }
+  
+  .search input[type="text"] {
+	width: 350px;
+	padding: 10px;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search button[type="submit"] {
+	background-color: #4e99e9;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 7px 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 0;
+	right: 0;
+	transition: .9s ease;
+  }
+  
+  .search button[type="submit"]:hover {
+	transform: scale(1.1);
+	color: rgb(255, 255, 255);
+	background-color: blue;
+  }
+
+  
+
+
 .navlist{
 	display: flex;
 	grid-gap: 1.5rem;
@@ -70,7 +116,7 @@ input:not(:placeholder-shown){
 	letter-spacing: 0.08rem;
 }
 button{
-	background-color: #528a1a;
+	background-color: #8a1a58;
 	border: none;
 	font-size: 1.2rem;
 	color: white;
@@ -81,7 +127,7 @@ button{
 	 
 }
 button:hover{
-	background-color: #fb8b7f;
+	background-color: #7f85fb;
 	cursor: pointer;
 }
 
@@ -117,7 +163,7 @@ button:hover{
 }
 
 .Image-box img{
-	background: transparent;
+	background-color:transparent;
 	height:27rem;
 	width: 25rem;
 	
@@ -130,6 +176,7 @@ button:hover{
 .content h1{
 	color: white;
 	font-size: 60px;
+	font-weight: 30px;
 	letter-spacing: 0.3rem;
 
 	background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
@@ -164,6 +211,8 @@ button:hover{
 .card h3{
 	color: white;
 	letter-spacing: 0.04rem;
+	font-size: 15px;
+	font-family:sans-serif ;
 }
 
 .navlist li a:hover{
